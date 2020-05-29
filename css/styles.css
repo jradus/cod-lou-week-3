@@ -2,3 +2,56 @@
 /*main site background - #FFFFFA*/
 /*dark text color - #080705*/
 /*light text color - #FFFFFA*/
+body {
+    background-color: #FFFFFA;
+}
+
+h2,
+p {
+    color: #080705;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 2vw;
+}
+
+.css-img {
+    margin-right: auto;
+}
+
+.main-nav {
+    display: flex;
+    background-color: #982649;
+    height: 12vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-nav li {
+    padding-right: 10%;
+}
+
+.main-nav a {
+    color: #FFFFFA;
+    font-size: 25px;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
